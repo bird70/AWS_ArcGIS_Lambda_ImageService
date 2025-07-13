@@ -28,7 +28,6 @@ AWS_ArcGIS_lambda_ImageService
    ```
    pip install -r requirements.txt
    ```
-   (Make sure that in addition to the ArcGIS API for Python, the Azure-blob-Storage library is also installed. This is already part of the ArcGIS_API_AWS_Lambda Layer here in Github)
 
 3. **Configure AWS Lambda**:
    - Create a new Lambda function in the AWS Management Console.
@@ -45,6 +44,7 @@ Once the Lambda function is deployed and configured, it will automatically trigg
 ## Additional Information
 
 - Ensure that the IAM role associated with the Lambda function has the necessary permissions to access S3 and interact with the ArcGIS API.
+- Make sure that in addition to the ArcGIS API for Python, the Azure-blob-Storage library is also installed. This is already part of the ArcGIS_API_AWS_Lambda Layer here in Github
 - For more details on the ArcGIS API for Python, refer to the official documentation.
 
 ## License
