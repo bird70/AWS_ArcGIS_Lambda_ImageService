@@ -1,0 +1,6 @@
+arcgis
+boto3
+numpy
+pandas
+requests
+python-dotenv
